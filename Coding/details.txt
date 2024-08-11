@@ -1,0 +1,46 @@
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> TAILWAND CSS COURSE <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+>>>> IF STYLE.CSS IS REQUIRED THEN FOLLOW THIS VIDEO TO DO INCLUDE THE TAILWIND OPTION IN THE STYLE.CSS FILE ===> TUTORIAL 12
+	===> **** FOLLOW THE STEPS DESCRIBED IN THE VIDEO CAREFULLY BECAUSE COMMANDS IN OFFICIAL DOCUMENTATION ARE SLIGHTLY CHANGED ****
+	https://www.youtube.com/watch?v=OYdkBxbJFks&list=PLu0W_9lII9ahwFDuExCpPFHAK829Wto2O&index=5&ab_channel=CodeWithHarry
+>> npm i ===> To install node modules dir
+>> If suggestion is not available then press this shortcut ====> ctrl+space
+>> vite ====> Is a package used to restart the server when changes made in the project ==> Run by using "npm run start" and made .json file script "start":"vite"
+>> WHY USE TAILWIND CSS ?
+	No reinventing of class names required
+	•You CSS doesn't grow with your html and designs tailwindcss
+	• When you make a change, no risk of breaking existing templates!
+	● If you try to build the site from the last video using Pure CSS, you will get
+	answers to a lot of questions you have about tailwind
+	• Will this make sites slow? Will it increase bundle size? → No
+	• What about responsiveness?
+
+>> To setup tailwind css, run these commands
+	I. npm init -y // This initializes the directory as a NodeJs project
+	2. npm install -D tailwindcss postcss autoprefixer vite // installs required packages
+	3. npx tailwindess init p
+	4. Create a css file "input.css", add it to your html and edit it with this content:
+	@tailwind base;
+	@tailwind components;
+	@tailwind utilities;
+	5. In your tailwind.config.js file replace content: [], with content: ["*"],
+	6. Add "start": vite" to your scripts in package.json
+	7. Run npm run start command to start a dev server
+
+>> For clearence in setup of tailwindcss and working understanding see first 6:30 minutes of this video
+	https://www.youtube.com/watch?v=YmkKCdCDpwM&list=PLu0W_9lII9ahwFDuExCpPFHAK829Wto2O&index=4&ab_channel=CodeWithHarry
+
+>>> TOPICS MOSTLY USED IN DEVELOPMENT: 
+	1) Fonts and Size
+	2) Margin, Padding, Borders and Spacing  
+	3) Square Baracket Notation
+	4) Responsiveness OR break-points ==> Small device will use default class and then the break-points classes will add. (Caution)
+	5) Hover, Focus and Other States ===> All done in landing.html
+		====> Difference between active and focus : StackOverFlow website answer
+	6) @apply directive ===> Order of custom styles and tailwind css option are very important ==> To override tailwind utilities write custom css after utilities
+		.btn ===> Is apply directive class and not working due to some issue but concept is what explained in the video
+	7) @layer componentName ====> Use to apply defined custom css after the given component name ===> In style.css file
+	8) Customizing tailwind css class ====> By using Extends method in tailwind.config.css
+
+>> Tailblocks ===> Website for html code like Bootstrap

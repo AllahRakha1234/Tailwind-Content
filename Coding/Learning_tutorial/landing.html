@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- TO USE TAILWANT USING LINK -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav>
+        <ul class="flex bg-blue-600 p-4">
+            <li class="text-white mr-4 cursor-pointer font-bold text-xl">Home</li>
+            <li class="text-white mr-4 cursor-pointer font-bold text-xl">About</li>
+            <li class="text-white mr-4 cursor-pointer font-bold text-xl">Contact</li>
+        </ul>
+    </nav>
+
+    <main class="flex mx-40 justify-between bg-orange-200 h-96 mt-4 rounded-lg">
+        <div class="details mt-16 pl-5">
+            <h1 class="text-fuchsia-700 font-bold text-4xl">Mobiles SalesHub</h1>
+            <p class="w-4/5 pt-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt sit
+                consectetur voluptates saepecorporis, illo dignissimos! Unde in quibusdam praesentium?</p>
+            <div class="buttons pt-3">
+                <button
+                    class="bg-purple-800 cursor-pointer text-white font-bold px-3 py-1 rounded-lg border-2 border-purple-800 hover:bg-white hover:text-purple-800 hover:border-2 hover:border-purple-800">
+                    Contact Us
+                </button>
+                <button
+                    class="bg-purple-800 cursor-pointer text-white font-bold px-3 py-1 rounded-lg border-2 border-purple-800 hover:bg-white hover:text-purple-800 hover:border-2 hover:border-purple-800">
+                    Buy Now
+                </button>
+                <button class="bg-purple-800 cursor-pointer text-white font-bold px-3 py-1 rounded-lg active:bg-purple-950
+                    focus:bg-zinc-500">
+                    Tutorial Purpose 1
+                </button>
+                <button class="bg-purple-800 cursor-pointer text-white font-bold px-3 py-1 rounded-lg border-2 border-purple-800 sm:mt-3 sm:hover:bg-red-700 lg:hover:text-purple-800 lg:hover:bg-white 
+                    lg:hover:border-2">
+                    Tutorial Purpose 2
+                </button>
+                <button class="btn">
+                    Apply Dir Purpose 1
+                </button>
+                <button class="bg-purple-800 cursor-pointer text-white font-bold px-3 py-1 rounded-lg border-2 border-purple-800 sm:mt-3 sm:hover:bg-red-700 lg:hover:text-purple-800 lg:hover:bg-white 
+                lg:hover:border-2">
+                    Apply Dir Purpose 2
+                </button>
+            </div>
+        </div>
+        <div class="image pt-5 flex items-center w-2/5">
+            <img src="https://img.freepik.com/premium-vector/happy-good-looking-adult-man-use-phone_97632-2069.jpg"
+                class="rounded-e-lg" alt="">
+        </div>
+    </main>
+</body>
+
+</html>

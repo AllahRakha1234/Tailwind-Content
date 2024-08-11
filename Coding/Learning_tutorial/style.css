@@ -1,0 +1,25 @@
+/* @APPLG LESSON */
+/* @tailwind base;
+@tailwind components;
+
+.btn {
+    @apply bg-purple-800 cursor-pointer text-white font-bold px-3 py-1 rounded-lg border-2 border-purple-800 sm:mt-3 sm:hover:bg-red-700 lg:hover:text-purple-800 lg:hover:bg-white 
+    lg:hover:border-2;
+}
+
+@tailwind utilities; */
+
+/* @LAYER LESSON */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer {
+  .btn {
+    @apply bg-purple-800 cursor-pointer text-white font-bold px-3 py-1 rounded-lg border-2 border-purple-800 sm:mt-3 sm:hover:bg-red-700 lg:hover:text-purple-800 lg:hover:bg-white 
+          lg:hover:border-2;
+  }
+}
+
+/* ===> Now .btn is component's part */
